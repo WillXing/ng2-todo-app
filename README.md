@@ -1,22 +1,44 @@
-# FrontendAngular2
+# Angular2 Todo App
 
-This project is use for the Sun bootcamp.
+## Instructions
 
-## Install check list
+### Goal
+Implement a client-side **Todo List** application based on given APIs.
+
+### Provided
+
+- API in json format
+- Basic project structure with all dependencies you will need.
+
+###
+
+Environment preparation
+```
+$ node -v
+v6.x.x
+$ npm -v
+v3.10.x
+$ yarn --verion
+0.16.x
+```
+
+Setup
+
+```
+yarn install
+```
+
+Start server
+
+```
+ng serve
+```
+
+## Dependencies
+
 * `node` 
 * `npm`
 * `angular-cli`.
 
-## Target
-Use this skeleton and API from [rest-api-springboot](https://git.thoughtworks.net/sun-bootcamp/rest-api-springboot) to build an Ng2 todo-list application.
-
-## You will need to learn basic knowledge of...
-
-* Angular-cli
-* Angualr2
-* Karma
-* Protractor
-
-## Useful documents
-* [Angular-cli Readme doc](https://github.com/angular/angular-cli/blob/master/README.md)
-* [Angular2 doc](https://angular.io/docs/ts/latest/)
+## Others
+It uses the API raml from [Spring Boot Api](https://github.com/silverjava/rest-api-springboot).
